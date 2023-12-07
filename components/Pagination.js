@@ -14,7 +14,7 @@ const Pagination = ({ paginationData }) => {
     <div className="flex left-0 content-start justify-center flex-wrap max-w-lg">
       <div>
         <h2 className="ml-6 text-left text-red-500 no-underline pb-1 max-w-md rounded-md font-bold text-2xl">
-          {/* <span className="text-black text-base font-semibold ">
+          <span className="text-black text-base font-semibold ">
           {totalPage > 1 && (
             <div>
           {firstPage === currentPage && (
@@ -66,7 +66,7 @@ const Pagination = ({ paginationData }) => {
         </div>
           )}
 
-          </span> */}
+          </span>
         </h2>
       </div>
     </div>
